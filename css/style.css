@@ -1905,8 +1905,8 @@ body.popup-show::after {
   align-items: flex-start;
   column-gap: 1.4375rem;
 }
-.item-promise-our__img {
-  max-width: 3.9375rem;
+.item-promise-our__img img {
+  max-width: 63px;
   width: 100%;
 }
 .item-promise-our__title {
@@ -2161,6 +2161,10 @@ body.popup-show::after {
   .item-services__img {
     margin-bottom: 1.5rem;
   }
+}
+.item-services__img img {
+  max-width: 63px;
+  width: 100%;
 }
 .item-services__title {
   margin-bottom: 1.25rem;
