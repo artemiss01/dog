@@ -1601,6 +1601,11 @@ body.popup-show::after {
   position: relative;
   background: url("../img/bg/duotone.jpg") 0 0/cover no-repeat;
 }
+@media (max-width: 47.99875em) {
+  .hero {
+    background-position: 70%;
+  }
+}
 .hero._watcher-view .hero__info {
   transform: translateY(0);
   opacity: 1;
