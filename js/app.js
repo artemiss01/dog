@@ -1856,7 +1856,7 @@
       A &&
       A.forEach((e) => {
         e.addEventListener("click", function (e) {
-          if (e.target.classList.contains("menu__arrow")) {
+          if (e.target.closest(".menu__arrow")) {
             e.target.classList.toggle("_active");
             let t = e.target.parentElement;
             if (t.classList.contains("menu__item")) {
